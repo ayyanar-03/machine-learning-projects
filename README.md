@@ -12,7 +12,7 @@ The goal is to build a classification model that can recognize and distinguish b
 
 Image classification of medicinal herbal plants.
 
-Deep Learning models (CNN / Transfer Learning like VGG16, EfficientNet).
+Deep Learning models (Transfer Learning like VGG16, EfficientNet).
 
 Trained and evaluated with accuracy, precision, recall, and F1-score.
 
@@ -70,7 +70,7 @@ Real-time face detection using OpenCV.
 
 Emotion recognition using Deep Learning models.
 
-Supports video input (webcam or uploaded video).
+Supports video input (uploaded video).
 
 Visualizes results by drawing bounding boxes with emotion labels.
 
