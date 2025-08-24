@@ -106,3 +106,61 @@ Bounding boxes with labels (e.g., Happy 😀, Sad 😢, Angry 😡).
 
 Can analyze emotional trends throughout the video.
 to view a project as a video : https://drive.google.com/file/d/1fYN30psAeO0NwVd07ElLCMB-CfrmS8Oz/view?usp=drive_link
+
+3.)
+
+🤟 American Sign Language (ASL) Detection
+📌 Overview
+
+This project focuses on building a Sign Language Detection System that translates American Sign Language (ASL) gestures into text or speech using Deep Learning and Computer Vision.
+It uses your webcam to capture hand gestures in real-time and translates them instantly.
+
+🚀 Features
+
+Real-time ASL detection via webcam.
+
+Converts ASL gestures into text or speech.
+
+Supports both static gestures (alphabets, numbers) and dynamic gestures (words, phrases).
+
+Uses MediaPipe for hand landmark detection and LSTM networks for gesture recognition.
+
+📂 Workflow
+
+Start the program and turn on your webcam.
+
+Show hand gestures in front of the camera.
+
+Detects key landmarks (hand & fingers) using MediaPipe.
+
+Predicts the corresponding ASL gesture using the trained LSTM model.
+
+Displays the recognized gesture as text on screen (optionally converts to speech).
+
+🛠️ Tech Stack
+
+Python
+
+TensorFlow / Keras (for training LSTM model)
+
+MediaPipe (for hand tracking & landmark detection)
+
+OpenCV (for webcam video capture)
+
+📊 Results
+
+Real-time ASL gesture detection using webcam.
+
+High accuracy for both alphabets and simple words.
+
+Optionally, converts recognized signs to speech.
+
+📬 Future Improvements
+
+Extend support for more phrases and sentences.
+
+Enhance performance in low-light environments.
+
+Deploy as a web app / mobile app.
+
+to view a proj: https://colab.research.google.com/drive/1m-O4Vl5U7skDMaFQSiIGVys01tVV8Ueb
